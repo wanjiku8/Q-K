@@ -6,7 +6,7 @@ function loadNewPage(url) {
 
     setTimeout(function() {
         window.location.href = url;
-    }, 3000); // Show loader for 3 seconds
+    }, 2000); // Show loader for 2 seconds
 }
 
 // Hide loader and show content after a delay when the page loads
